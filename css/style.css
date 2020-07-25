@@ -1,5 +1,16 @@
+@font-face {
+    font-family: "sanserif";
+    src: url("../fonts/hk-grotesk/HKGrotesk-Regular.otf");
+}
+
+@font-face {
+    font-family: "serif";
+    src: url("../fonts/minion/Minion Pro Regular.ttf");
+}
+
 body,html {
     height: 100%;
+    font-family: "sanserif";
 }
 
 body { padding-top: 70px; }
@@ -64,26 +75,13 @@ body { padding-top: 70px; }
     background-size: cover;
 }
 
-.shelf{
-    background-image: url("../img/wood.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position:relative;
-}
-
-@font-face {
-    font-family: "Grotesk";
-    src: url("../fonts/hk-grotesk/HKGrotesk-Regular.otf");
-}
-@font-face {
-    font-family: "Minion";
-    src: url("../fonts/minion/Minion Pro Regular.ttf");
-}
-
 p {
     line-height: 1.2;
     text-align:justify;
+}
+
+.booktitle {
+    font-family: "serif";
 }
 
 a {color:#292929;}
@@ -92,10 +90,3 @@ a#wa:hover { color: #128C7E; }
 a#tw:hover { color: #00acee; }
 a#fb:hover { color: #3b5998; }
 a#at:hover { color: #D44638; }
-
-
-@media only screen and (max-device-width: 1366px) {
-    .book-banner {
-        background-attachment: scroll;
-    }
-}
