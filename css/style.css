@@ -1,11 +1,11 @@
 @font-face {
     font-family: "sanserif";
-    src: url("../fonts/hk-grotesk/HKGrotesk-Regular.otf");
+    src: url("./../fonts/hk-grotesk/HKGrotesk-Regular.otf");
 }
 
 @font-face {
     font-family: "serif";
-    src: url("../fonts/minion/Minion Pro Regular.ttf");
+    src: url("./../fonts/minion/Minion Pro Regular.ttf");
 }
 
 body,html {
