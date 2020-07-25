@@ -10,21 +10,21 @@ var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
 teoriamimetica.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
 }
 
 centrocoyoacan.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
 }
 
 elecciones.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
 }
 
 // Get the <span> element that closes the modal
@@ -32,5 +32,10 @@ var span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
-  modal.style.display = "none";
+    modal.style.display = "none";
 } 
+$(document).keydown(function(event) { 
+    if (event.keyCode == 27) { 
+        modal.style.display = "none";
+    }
+});
