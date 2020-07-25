@@ -1,10 +1,9 @@
 # Urban Times Press
-*urbantimespress.com*
+*https://urbantimespress.com/*
 
-
-Mexico City, Mexico
+Mexico City, Mexico  
 2020
 
 Credits:
-Arturo Sánchez Navarro
+Arturo Sánchez Navarro  
 a1909s@gmail.com
