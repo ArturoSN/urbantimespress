@@ -1,0 +1,101 @@
+body,html {
+    height: 100%;
+}
+
+body { padding-top: 70px; }
+
+.navbar, .jumbotron {
+    background-color:white;
+}
+
+.home-book-banner {
+    /* The image used */
+    background-image: url("../img/UTP_Mockup03.png");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-press-banner {
+    /* The image used */
+    background-image: url("../img/UTP_Mockup02.png");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-book-banner {
+    /* The image used */
+    background-image: url("../img/UTP_Mockup05.png");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-press-banner {
+    /* The image used */
+    background-image: url("../img/UTP_Mockup01.png");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shelf{
+    background-image: url("../img/wood.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+
+@font-face {
+    font-family: "Grotesk";
+    src: url("../fonts/hk-grotesk/HKGrotesk-Regular.otf");
+}
+@font-face {
+    font-family: "Minion";
+    src: url("../fonts/minion/Minion Pro Regular.ttf");
+}
+
+p {
+    line-height: 1.2;
+    text-align:justify;
+}
+
+a {color:#292929;}
+a:hover { text-decoration: none; }
+a#wa:hover { color: #128C7E; }
+a#tw:hover { color: #00acee; }
+a#fb:hover { color: #3b5998; }
+a#at:hover { color: #D44638; }
+
+
+@media only screen and (max-device-width: 1366px) {
+    .book-banner {
+        background-attachment: scroll;
+    }
+}
