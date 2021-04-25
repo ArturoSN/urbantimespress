@@ -84,6 +84,7 @@ p {
     font-family: "serif";
 }
 
+/* Social Media Buttons */
 a {color:#292929;}
 a:hover { text-decoration: none; }
 a#wa:hover { color: #128C7E; }
